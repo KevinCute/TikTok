@@ -27,17 +27,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const emailLogo = document.querySelector('img[alt="email logo"]');
 
   const lightLogos = {
-    github: "assets/github_light.png",
-    linkedin: "assets/linkedin_light.png",
-    email: "assets/email_light.png",
-    theme: "assets/theme_light.png",
+    github: "Assets/github_light.png",
+    linkedin: "Assets/linkedin_light.png",
+    email: "Assets/email_light.png",
+    theme: "Assets/theme_light.png",
   };
 
   const darkLogos = {
-    github: "assets/github_dark.png",
-    linkedin: "assets/linkedin_dark.png",
-    email: "assets/email_dark.png",
-    theme: "assets/theme_dark.png",
+    github: "Assets/github_dark.png",
+    linkedin: "Assets/linkedin_dark.png",
+    email: "Assets/email_dark.png",
+    theme: "Assets/theme_dark.png",
   };
 
   function setTheme(isDark) {
